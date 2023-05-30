@@ -1,0 +1,24 @@
+This is the software used to cluster PylRS and tRNAPyl sequences and identify sets of mutually orthogonal PylRS/tRNAPyl pairs. 
+
+This software was developed by Adam Beattie, Daniel Dunkelmann and Jason Chin at the MRC Laboratory of Molecular Biology.
+
+This software is free software, licensed under the GNU GPL license v3.0.
+
+
+SYSTEM REQUIREMENTS
+ 
+Python 3.9.7
+Full package information is listed in the jupyter notebook "PylRST_Analysis_Code_v2.ipynb".
+
+The software was tested on a Mac computer running macOS 12.
+Installation: install Python 3.9.7 and the listed packages.
+Install time: a few minutes.
+
+
+HOW TO USE
+
+A full demo is provided which contains the PylRS ("All-PylRS-Description-Table-MSA.csv") and tRNAPyl ("PylT_A_B_manual_aligned.txt" for previously characterised tRNAs, "PID55-Repr-PylTs-manual-align.fasta" for representative tRNAs from all PylRS clusters) data for clustering, as well as GFP expression data ("Fig4_allscreendata_with_evol.csv") for identification of mutually orthogonal sets.
+To run the demo, open the jupyter notebook file ("PylRST_Analysis_Code_v2.ipynb") and run each cell.
+
+The runtime should be a few minutes on a normal desktop computer. The workbook has already been pre-run and therefore examples of the desired outputs (both within the workbook and as the separate clustergram figure files) are already present.
+
